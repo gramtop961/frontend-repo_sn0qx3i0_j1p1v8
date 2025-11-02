@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero3D from './components/Hero3D.jsx';
+import HeroCover3D from './components/HeroCover3D.jsx';
 import LoadingShowcase from './components/LoadingShowcase.jsx';
 import FeatureCards from './components/FeatureCards.jsx';
 import CTASection from './components/CTASection.jsx';
@@ -20,7 +20,7 @@ function App() {
       </header>
 
       <main className="w-full">
-        <Hero3D />
+        <HeroCover3D />
         <LoadingShowcase />
         <FeatureCards />
         <CTASection />
